@@ -1,0 +1,82 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+
+.navlogo{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    padding: 10px;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    margin-left: 1%;
+    color: black;
+    font-size: 17px;
+}
+.logo{
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-left: -1%;
+}
+.navbtn{
+    /* background-color: blue; */
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.navbtn button{
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 170px;
+    margin-left: 75%;
+    background-color: #f26b34;
+}
+.logo img{
+    width: 20%
+}
+.earntext{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.earntext h1{
+    font-weight: 400;
+    width: 40%;
+    font-size: 60px;
+    /* background-color: red; */
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.earntext p{
+    width: 50%;
+    font-size: 18px;
+    /* background-color: green; */
+    margin-left: 10%;
+}
+.b{
+    font-weight: bold;
+}
+.earn{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.earntext button {
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 170px;
+    background-color: #f26b34;
+}
+section{
+    max-width: 80%
+}
